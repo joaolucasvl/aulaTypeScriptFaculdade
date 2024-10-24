@@ -39,3 +39,8 @@ console.log(`O aluno ${studentName}, vai pagar um lanche ao professor no valor d
 
 
 var cidades = ['Jundiaí', 'Itupeva', 'Sao Paulo']
+console.log("O numero de cidades é: ", cidades.length);
+
+for(let i = 0; i < cidades.length; i++) {
+    console.log(`A cidade da posição ${i} é: ${cidades[i]}`)
+}
